@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h3{
+    text-align: center;
+    color:orange;
+}
+.graph{
+    position:relative;
+    
+}
+.chart{
+    margin-top:20px;
+    position:absolute;
+    top:5%;
+    left:15%;
+}
+.tooltip{
+    position:absolute;
+    color:#fff;
+    background:#000;
+    width:150px;
+    height:70px;
+    pointer-events: none;
+    text-align: center;
+}
